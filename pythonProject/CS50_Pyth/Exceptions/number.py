@@ -33,6 +33,7 @@ def main():
     x = get_int("What's x? ")
     print(f"x is {x}")
 
+
 def get_int(prompt):
     while True:  # Adds a way to loop the function until an integer is called
         try:
@@ -40,5 +41,6 @@ def get_int(prompt):
             # Can put into one line without defining variable
         except ValueError:
             pass  # Still catches the error but "passes" on saying anything; just loops
+
 
 main()
