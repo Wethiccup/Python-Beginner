@@ -6,11 +6,13 @@ def _largest(arr):
             max = arr[i]
     return max
 
+
 def main():
     arr = [15, 25, 32, 15, 74]
 
     largest_num = _largest(arr)
 
     print(largest_num)
+
 
 main()
