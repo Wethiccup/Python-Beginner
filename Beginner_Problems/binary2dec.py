@@ -1,5 +1,6 @@
 from int_to_list import int_list
 
+
 def main():
     print("1. Binary to Decimal\n2. Decimal to Binary")
 
@@ -14,14 +15,16 @@ def main():
 
 
 def binary(x):
+    new = int_list(x)
+    print(new)
     for i in range(x):
         if i != 0 and 1:
             print("What is entered is not binary")
             exit()
         else:
             for i in range(x):
-                
-            return
+                if int_list(x):
+                    return
 
 
 if __name__ == "__main__":
