@@ -5,27 +5,17 @@ def main():
 
     if decision == "1":
         n = input("Enter binary: ")
-        binary2dec(n)
+        print(binary2dec(n))
     if decision == "2":
         n = input("Enter a decimal: ")
         decimal2bin(n)
 
 
 def binary2dec(x):
-    num_list = [0]
-    num_list = [eval(i) for i in x]
-    print(x)
-    print(num_list)
-    # for i in range(len(num_list)):
-    if all(num_list) != "1" or "0":
-        print(num_list)
-        print("What is entered is not binary")
-
-    else:
-        print("balls")
-        for i in range(x):
-            if int_list(x):
-                return
+    decimal = 0
+    for i in range(len(x)):
+        decimal += int(x[i]) * (2 ** (len(x) - i - 1))
+    return decimal
 
 
 if __name__ == "__main__":
