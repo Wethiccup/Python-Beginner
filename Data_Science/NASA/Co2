@@ -1,0 +1,10 @@
+# import csv
+
+# with open("co2_mm_mlo.txt", "r") as infile, open("co2_data.csv", "w") as outfile:
+#     stripped = (line.strip() for line in infile)
+#     lines = (line.split(",") for line in stripped if line)
+#     writer = csv.writer(outfile)
+#     writer.writerows(lines)
+
+with open("co2_data.csv", "r") as file:
+    
