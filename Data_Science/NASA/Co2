@@ -6,5 +6,4 @@
 #     writer = csv.writer(outfile)
 #     writer.writerows(lines)
 
-with open("co2_data.csv", "r") as file:
-    
+# with open("co2_data.csv", "r") as file:
